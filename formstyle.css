@@ -8,18 +8,19 @@
 }
 
 body{
-    background-image: ;
     background-size: cover;
     -moz-background-size:cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
     
        
        
 
 
         
-}
+
 
 .contact-us {
     width: 400px;
@@ -52,7 +53,8 @@ body{
     box-sizing: border-box;
     background: white;
     outline: none;
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
     .form-item .name{
     width: 100%;
@@ -72,7 +74,8 @@ body{
     box-sizing: border-box;
     background: white;
     outline: none;
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
     .form-item .title{
     width: 100%;
@@ -81,7 +84,8 @@ body{
     box-sizing: border-box;
     background: white;
     outline: none;
-    border-radius: 15px;}
+    border-radius: 15px;
+}
 
    
 
@@ -90,7 +94,6 @@ body{
     padding: 5px;
     height: 120px;
 }
-
 
 .submit{
     background: #E1BEE7;

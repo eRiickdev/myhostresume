@@ -3,7 +3,13 @@
 <html>
 
 <head>
-    <title>My cv</title>
+    <title>My Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <link rel="stylesheet" href="formstyle.css">
+    <script src="main.js"></script>
    <style>
    
     html{
@@ -51,7 +57,7 @@ img.image{
     width: 130px;
 }
 
-.name{
+.myname{
     font-size: 48px;
     line-height: 1;
 }
@@ -126,13 +132,13 @@ job:last-child{
                     class="image"></div>
 
             <header align="center">
-                <div class="name">SADO IDRIS ERICK</div>
+                <div class="myname">SADO IDRIS ERICK</div>
 
                 <div class="detail">No. 8 Bakare Street Langbasa,Owode,</div>
                 <div class="detail">Ajah,Lagos.</div>
                 <div class="detail">07036270893</div>
                 <div class="mail">sirdris@gmail.com</div>
-               <div class ="contact"><a href = "contactform.html">Contact Me Here</a></div>
+              
             
 
 
@@ -404,6 +410,35 @@ job:last-child{
         
 
     </section>
+
+
+    <div class="contact-us">
+        <div class="body">
+            <h1 class="cool">Contact Me</h1>
+    
+        </div>
+        <form>
+            <div class="form">
+                <label class="form-item">
+                    <input type="text" class="name" placeholder="Name">
+                </label>
+                <label class="form-item">
+                    <input type="email" class="email" placeholder="Email">
+                </label>
+                <label class="form-item">
+                    <input type="text" class="title" placeholder="Title">
+                </label>
+                <label class="form-item">
+                    <textarea class="message" cols="30" rows="10" placeholder="message....."></textarea>
+                </label>
+            </div>
+    
+            <button class="submit" type="submit"></button>
+           <b class="cool" >submit</b>
+    </div>
+    </form>
+    
+    </div>
 
 
 

@@ -11,30 +11,36 @@ console.log('Clicked button')
             var title = $('.title').val()
             var message = $('.message').val()
             var statusElm = $('.status')
-      
-            statusElm.empty()
+       statusElm.empty()
 
+           
             
 
        
     
         
-        if (name.length <= 0) {
-            alert('Name field cannot be empty')
-           
-        }
-        else {
+        if (name.length < 1) {
+            alert('Name field cannot be empty')}
+                   else {
             event.preventDefault()
-            statusElm.append('Name is valid')}
+            statusElm.append('Name is Valid')}
+        
+
 
         if (email.length > 2 && email.includes('@') && email.includes('.')) {
             statusElm.append('Email is valid')
         }
-        else {
+        else if (email.length < 1) {
+            event.preventDefault()
+            alert('Email field cannot be empty')
+        }
+         else {
             event.preventDefault()
             alert('Email is not valid')
+         }  
+            
 
-        }
+        
 
 
 
