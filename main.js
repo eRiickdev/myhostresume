@@ -21,7 +21,12 @@ console.log('Clicked button')
         
         if (name.length < 1) {
             alert('Name field cannot be empty')}
-                   else {
+         
+        else if (name.length > 1 && name.length <= 4 ){
+            alert('Name has to be 4 letters or more')
+        }
+                
+            else {
             event.preventDefault()
             statusElm.append('Name is Valid')}
         
@@ -58,7 +63,7 @@ console.log('Clicked button')
             statusElm.append('<div>Your message is valid</div>')
         } else {
             event.preventDefault()
-            alert('Please message needs to be above 20 words')
+            alert('Please message has to be 20 letters or more')
         }
     
 
