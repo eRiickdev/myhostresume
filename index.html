@@ -8,12 +8,14 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
      
  
     
   
     
     <style>
+      
             html {
                 box-sizing: border-box;
             }
@@ -121,6 +123,17 @@
                 font-style: italic;
     
             }
+
+            .page {
+	width: 500px;
+	background: white;
+	padding: 20px 50px 20px 50px;
+	margin: 20px auto;
+	min-height: 500px;
+	height: auto !important;
+	height: 500px;
+}
+
         </style>
   
  <script>
@@ -476,27 +489,33 @@
     
     
         </section>
+        <div class = "page">
 
 <form name="myform" method="post" action="" onsubmit="return validateform()">
-   <center> <p> <h3>Contact Me</h3></p></center>
-<center><b>Name:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</b><input type="text" name="name"><br /></center>
+ <div class="contact-us"> <center> <p> <h3>Contact Me</h3></p></center>
+
+
+<center><br><input type="text"    name="name" style="width:500px" ; height="150px" placeholder="Name"><br></center>
    
+<center><br><input type="text" name="email" style="width:500px" ; height="150px" placeholder="Email"><br></center>
+
+<center><br><input type="text" name="Title" style="width:500px"; height="150px" placeholder="Title"></center><br>
+
+
+<center><br><textarea input type="text" cols="30" rows="10" name="Message" style="width:500px" ; height="150px" placeholder="Message"></textarea> </center> <br>
    
+
+   
+
     
    
 
- &nbsp;<center><b> Email:</b>&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;<input type="text" name="email"><br /></center>
 
-
-&nbsp;<center><b>Title:</b>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="text" name="Title"><br /></center>
-
-
- <center> <p><b> Message:</b><textarea input type="text" cols="30" rows="10" name="Message"></textarea><br /></p></center>
-   
-
-   
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="Submit">
+<center><input type="submit" value="Submit"></center>
 </form>
+</div>
+
+
 
 
 </body>
